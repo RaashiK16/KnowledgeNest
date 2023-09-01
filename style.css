@@ -33,8 +33,10 @@ ul{
 }
 .navbar{
     background-color: white;
+    /* height: 100px; */
     position: sticky;
     top: 0px;
+    
     border-bottom: 2px solid #678a4f;
     
 }
@@ -277,11 +279,13 @@ ul{
 
 /* PRICING SECTION */
 #pricing{
-    margin-top: -56px;
+    background-color: rgb(243, 242, 242);
+    margin-top: -16px;
     padding: 20px;
 }
 .main-container#pricing-cont{
-    padding-bottom: 0;
+    background-color: rgb(243, 242, 242);
+    padding-bottom: 20px;
 }
 #pricing-small{
     font-family: 'Jost', sans-serif;
@@ -290,6 +294,7 @@ ul{
     color: #478587;
 }
 #price{
+    background-color: rgb(243, 242, 242);
     margin: 20px;
     margin-top: 50px;
 }
