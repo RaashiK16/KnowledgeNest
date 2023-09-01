@@ -1,0 +1,412 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    /* border: 20px solid #98cd74; */
+    }
+section{
+    /* background-color: #b9eb98; */
+    background-color: white;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'PT Serif', serif;
+    /* text-align: left; */
+
+}
+
+
+
+/* Navigation */
+.navbar-brand{
+    font-size: 1.5rem;
+}
+.nav-link{
+    color: #74a851;
+    font-weight: bold;
+}
+ul{
+    padding: 10px 15px;
+    margin-right: 30px;
+}
+.navbar{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    border-bottom: 2px solid #678a4f;
+    
+}
+.navbar-brand{
+    padding-left: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #476433;
+}
+.navbar-toggler{
+    background-color: #476433;
+    color: white;
+}
+#navsec{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-item{
+    margin: 0 10px;
+}
+#searchbar{
+    padding-left: 5px;
+    margin-left: 50px;
+    width: 400px;
+}
+#searchbutton{
+    background-color: rgb(37, 113, 234);
+    height: 28px;
+    width: 30px;
+}
+#join{
+    margin-left: 5px;
+    margin-right: 10px;
+    background-color: #597d41;
+    
+}
+#join:hover{
+    background-color: #476433;
+}
+#login{
+    margin-left: 40px;
+    color: #476433;
+    /* border: #476433; */
+}
+#login:hover{
+    background-color: #476433;
+    color: white;
+}
+.buttonlog{
+    text-decoration: none;
+}
+.buttonlog:hover{
+    color: white;
+}
+#sig{
+    color: white;
+}
+
+
+
+/* Main section */
+#main{
+    background-color: #b9eb98;
+    /* margin-top: 20px; */
+    padding: 20px;
+    height: 800px;
+}
+.main-container{
+    background-color: white;
+    margin: 50px;
+    margin-top: 30px;
+    /* height: 650px; */
+    padding-bottom: 60px;
+}
+.title-image{
+    width: 75%;
+    position: absolute;
+    right: 150px;
+    top: 150px;
+    border: 50px solid white;
+    z-index: 1;
+}
+.big-heading{
+    margin-left: 130px;
+    margin-top: 70px;
+    text-align: left;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    text-align: left;
+}
+.box{
+    height: 337px;
+    width: 462px;
+    background-color: #678a4f;
+    position: absolute;
+    top: 227px;
+    right: 170px;
+    z-index: 0;
+    justify-content: center;
+}
+#main-para{
+    text-align: left;
+    margin-left: 130px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    width: 480px;
+    line-height: 1.5;
+}
+#signup{
+    margin-left: 130px;
+    margin-top: 30px;
+    width: 440px;
+    background-color: #444f17;
+    /* border: 2px solid white; */
+}
+
+
+
+/* Courses Section */
+#courses{
+    margin-top: -120px;
+    padding: 20px;
+}
+/* .main-container#course{
+    height: 820px;
+} */
+#course-heading{
+    padding-top: 90px;
+    font-size: 2.3rem;
+    margin-left: 45px;
+    margin-top: 40px;
+    text-align: left;
+
+}
+/* .courses-column:hover{
+
+} */
+.cardd:hover{
+    margin: 10px;
+}
+#cards-row{
+    margin: 20px;
+    margin-top: 70px;
+}
+.cardd{
+    border: 1px solid #678a4f;
+    margin: 15px;
+    box-shadow: 1px 1px 5px 5px rgb(211, 211, 211);
+}
+.card-heading{
+    text-align: left;
+}
+#number{
+    font-family: 'Jost', sans-serif;
+}
+.header-img{
+    height: 150px;
+}
+
+
+
+/* CLIENTS SECTION */
+#clients{
+    background-color: rgb(243, 242, 242);
+    margin-top: -56px;
+    padding: 20px;
+}
+.main-container#client{
+    background-color: rgb(243, 242, 242);
+    padding-bottom: 0;
+}
+.client-text{
+    text-align: center;
+    padding-top: 40px;
+}
+#client-emphasis{
+    color: blue;
+}
+
+.card-image{
+    margin: 30px;
+    max-height: 200px;
+    width: 100%;
+}
+#img3{
+    height: 80px;
+    width: 180px;
+}
+.logos{
+    display: inline-block;
+    margin: 0 10px 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+#name-emphasis{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+/* TESTIMONIALS SECTION */
+#testimonials{
+    margin-top: -56px;
+    padding: 20px;
+}
+.main-container#testimonial{
+    padding-bottom: 0;
+    background-color: #478587;
+}
+.testimonial-text{
+    text-align: center;
+}
+#main-head{
+    padding-top: 50px;
+    color: #e1e2b7;
+}
+#subtext{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    
+}
+
+.testimonial-image{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    height: 132px;
+    width: 177px;
+    border-radius: 50%;
+}
+.carousel-item{
+    padding: 90px;
+    text-align: center;
+    color: white;
+}
+
+
+/* PRICING SECTION */
+#pricing{
+    margin-top: -56px;
+    padding: 20px;
+}
+.main-container#pricing-cont{
+    padding-bottom: 0;
+}
+#pricing-small{
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    color: #478587;
+}
+#price{
+    margin: 20px;
+    margin-top: 50px;
+}
+#price-para{
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+}
+.pricingcdheader{
+    text-align: center;
+    background-color: #b9eb98;
+}
+.pricingcdbody{
+    background-color: #b9eb98;
+    padding: 20px;
+}
+.duration{
+    font-size: 1rem;
+}
+.duration-heading{
+    color: #264068;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+
+/* BEST COURSES SECTION */
+#choose{
+    margin-top: -56px;
+    padding: 20px;
+}
+.main-container#choose-cont{
+    padding-bottom: 20px;
+}
+.best-heading{
+    text-align: center;
+    padding-top: 20px;
+    color: #646464;
+    font-weight: bold;
+}
+#popular-row{
+    margin: 50px;
+    /* background-color: #75bdbf; */
+    padding: 10px;
+}
+.popular-column{
+    /* background-color: burlywood; */
+    padding: 20px;
+    /* margin: 10px; */
+}
+.feature{
+    display: inline;
+    margin-left: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+.feature-para{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 75%;
+}
+.choose-col{
+    display: inline;
+    font-size: 2.5rem;
+    color: #678a4f;
+}
+.choose-col:hover{
+    color: #476433 ;
+}
+
+
+
+/* CONTACT SECTION */
+#contact{
+    padding-top: 100px;
+    text-align: center;
+    background-color: #b9eb98;
+}
+#contact-heading{
+    text-align: center;
+}
+.download-button{
+    margin: 30px 20px;
+
+}
+
+
+/* FOOTER */
+#footer{
+    padding: 30px;
+    background-color: #b9eb98;
+    text-align: center;
+}
+.footer-icon{
+    margin: 20px;
+    color: #476433;
+    font-size: 2rem;
+}
+
+
+@media (max-width: 1361px){
+    .big-heading, #main-para , #signup , .imagee , .main-container, #main{
+        text-align: center ;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);   
+    }
+    .box{
+        visibility: hidden;
+    }
+    #main{
+        height: 1200px;
+    }
+    .big-heading, #main-para , #signup{
+        margin: auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+}

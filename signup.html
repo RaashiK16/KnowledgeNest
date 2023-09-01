@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Sign Up</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/3b72aef1b2.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        body{
+            background: url('image/teacher-s-day-elements-composition.jpg') no-repeat center center/cover;
+            height: 100vh;
+            width: 100vw;
+        }
+        .container{
+            position: absolute;
+            top: 50px;
+            right: 700px;
+            background-color: white;
+            width: 400px;
+            padding: 20px;
+            padding-bottom: 30px;
+            z-index: 0;
+        }
+        #form-cont{
+            margin: 20px;
+        }
+        .form-heading{
+            margin-top: 20px;
+        }
+        .box{
+            /* margin-bottom: 30px; */
+            /* margin-top: 10px; */
+            width: 316px;
+            height: 45px;
+        }
+        #pass{
+            width: 316px;
+            height: 45px;
+        }
+        .forgot{
+            margin-bottom: 30px;
+            font-size: 0.8rem;
+        }
+        .btn{
+            margin-left: 20px;
+            margin-top: 20px;
+            width: 316px;
+        }
+        .icon{
+            font-size: 1.2rem;
+            margin-right: 23px;
+        }
+        .main{
+            align-items: center;
+            justify-content: center;
+        }
+        .welcome{
+            background-color: white;
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            z-index: 1;
+            text-align: center;
+            justify-content: center;
+            visibility: hidden;
+        }
+        .iconcheck{
+            font-size: 5rem;
+            margin: auto;
+            color: green;
+            margin-top: 50px;
+
+        }
+        .welcome-heading{
+            padding-top: 50px;
+            line-height: 1.2;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <h4>Already have an account? <a href="login.html">Log In.</a></h4>
+        <form action="" id="form-cont">
+            <h6 class="form-heading">EMAIL ADDRESS</h6>
+            <input type="email" placeholder="Enter your Email Address" class="box">
+            <br>
+            <h6 class="form-heading">CREATE NEW PASSWORD</h6>
+            <input type="password" name="" id="pass" placeholder="Create your Password" class="box">
+            <br>
+            <h6 class="form-heading">CONFIRM NEW PASSWORD</h6>
+            <input type="password" name="" id="pass" placeholder="Enter your Password" class="box">
+        </form>
+        <button class="btn btn-primary btn-lg btn-block" id="submitbutton">Submit</button>
+        <p style="color: blue; text-align: center;">or</p>
+        <button class="btn btn-outline-primary btn-lg btn-block"><i class="fa-brands fa-google icon"></i>Continue with Google</button>
+    </div>
+
+    
+    <div class="welcome">
+        <i class="fa-solid fa-circle-check iconcheck"></i>
+        <h1 class="welcome-heading">Congratulations! <br>Welcome to KnowledgeNest!</h1>
+    </div>
+    
+    
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>
+        let submitbutton = document.getElementById('submitbutton');
+        let welcome = document.getElementsByClassName('welcome');
+        let container = document.getElementsByClassName('container');
+
+        submitbutton.addEventListener("click", function(){
+            container[0].style.visibility = 'hidden';
+            welcome[0].style.visibility = 'visible';
+        });
+
+        let a = document.getElementsByTagName('body');
+    </script>
+  </body>
+</html>
